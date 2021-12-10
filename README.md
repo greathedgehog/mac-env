@@ -34,6 +34,8 @@ finder preferences - download folder option
     a. brew install --cask google-chrome
     b. brew install --cask naver-whale
     c. brew install --cask firefox
+    d. brew install --cask iterm2 ### iterm2 설정은 별도 문서 참고
+    e. 
 
 2. mas  
     a. kakaotalk
