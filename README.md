@@ -125,14 +125,14 @@ brew "vitorgalvao/tinybashs/cask-repair"
 cask "alacritty"
 cask "font-hack-nerd-font"
 
-# 다른 맥에서 입력
+## 다른 맥에서 입력
 $ brew bundle
 
 
-#mas에서 wechat 검색
+## mas에서 wechat 검색
 mas search wechat
 
-#출력
+### 출력
 836500024      WeChat            (2.3.28)
 1189898970    WeChat Work     (2.8.16)
 
@@ -141,7 +141,16 @@ mas search wechat
 #brewfile리스트에는 다음 문구를 추가하면 된다.
 mas "WeChat", 836500024
 
+## rosetta 2 installation
+softwareupdate --install-rosetta --agree-to-license
 
+#git
+##설정
+git lfs install
+git config --global user.name "greathedgehog"
+git config --global user.email "jamesbjoy7@gmail.com"
+git config --global core.precomposeunicode true
+git config --global core.quotepath false
 
 main manual:
 https://subicura.com/mac/setup/setting.html#스크립트-실행
