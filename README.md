@@ -38,9 +38,14 @@ finder preferences - download folder option
         #### iterm2 설정은 별도 문서 참고
     e. brew install --cask slack
     f. brew install --cask typora
+    g. brew install --cask evernote
+    h. brew install --cask notion
+    i. brew install --cask telegram 
 
 2. mas  
     a. kakaotalk
+    b. runcat
+        mas install 1429033973
 3.  
 4.  
 5. magnet: direct download
@@ -77,6 +82,20 @@ cask "font-hack-nerd-font"
 $ brew bundle
 
 
+#mas에서 wechat 검색
+mas search wechat
+
+#출력
+836500024      WeChat            (2.3.28)
+1189898970    WeChat Work     (2.8.16)
+
+#WeChat의 id는 836500024
+
+#brewfile리스트에는 다음 문구를 추가하면 된다.
+mas "WeChat", 836500024
+
+
+
 main manual:
 https://subicura.com/mac/setup/setting.html#스크립트-실행
 
@@ -88,3 +107,9 @@ https://blog.gangnamunni.com/post/brew_cask_mas/
 내가 설치한 맥용 애플리케이션들
 https://youngmind.tistory.com/entry/내가-설치한-맥용-어플리케이션들
  
+한방에 설치하기 (위챗 포함)
+https://npd-58.tistory.com/5
+
+to setup team development environment using brewfile 
+https://velog.io/@iamchanii/Brewfile을-이용해서-팀-개발-환경-만들기
+
