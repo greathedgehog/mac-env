@@ -34,8 +34,10 @@ finder preferences - download folder option
     a. brew install --cask google-chrome
     b. brew install --cask naver-whale
     c. brew install --cask firefox
-    d. brew install --cask iterm2 ### iterm2 설정은 별도 문서 참고
-    e. 
+    d. brew install --cask iterm2 
+        #### iterm2 설정은 별도 문서 참고
+    e. brew install --cask slack
+    f. brew install --cask typora
 
 2. mas  
     a. kakaotalk
@@ -43,6 +45,37 @@ finder preferences - download folder option
 4.  
 5. magnet: direct download
 6. 
+
+$ cat Brewfile
+
+# 출력 내용
+tap "caskroom/fonts"
+tap "cjbassi/gotop"
+tap "dart-lang/dart"
+tap "getsentry/tools"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "vitorgalvao/tinybashs"
+brew "autojump"
+brew "awscli"
+brew "bat"
+brew "git-flow-avh"
+brew "mysql"
+brew "mysql@5.7"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "dart-lang/dart/dart"
+brew "vitorgalvao/tinybashs/cask-repair"
+cask "alacritty"
+cask "font-hack-nerd-font"
+
+# 다른 맥에서 입력
+$ brew bundle
+
 
 main manual:
 https://subicura.com/mac/setup/setting.html#스크립트-실행
