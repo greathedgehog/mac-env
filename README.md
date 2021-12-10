@@ -1,8 +1,8 @@
 # mac-env
-my macbook's system preferences and environment setup and configuration
+### my macbook's system preferences and environment setup and configuration
 
 
-this is to setup the initial system preference and environment setup and configuration.
+## this is to setup the initial system preference and environment setup and configuration.
 
 first to set up home brew:
 
@@ -29,8 +29,27 @@ system preferences - security
 finder preferences - download folder option 
 
 
+### basic application list
+1. brew install
+    a. brew install --cask google-chrome
+    b. brew install --cask naver-whale
+    c. brew install --cask firefox
+
+2. mas  
+    a. kakaotalk
+3.  
+4.  
+5. magnet: direct download
+6. 
+
 main manual:
 https://subicura.com/mac/setup/setting.html#스크립트-실행
 
 for reference:
 https://blog.gangnamunni.com/post/brew_cask_mas/
+
+
+
+내가 설치한 맥용 애플리케이션들
+https://youngmind.tistory.com/entry/내가-설치한-맥용-어플리케이션들
+ 
